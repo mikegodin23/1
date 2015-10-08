@@ -1,164 +1,1250 @@
-#EXTINF:1,Spike UK
-http://95.172.231.17/flashstream/stream.flv?Preset=7&aspect=16A9&ffPreset=ultrafast&maxwidth=&maxheight=&chid=26
-#EXTINF:-1,The Vault
-http://37.187.248.101:8080/thevault.stream/index.m3u8
-#EXTINF:-1,PBS America
-http://37.187.248.101:8080/pbsamerica.stream/index.m3u8
-#EXTINF:-1,HBO
-http://www.jisu.cf/ds/live.m3u8?id=115&auth=5d00a58a7d45be1eb82fe31501ea24292980a8c2b0385257e20ed12dfc078661
-#EXTINF:-1,Sky Sports 1
-http://www.jisu.cf/ds/live.m3u8?id=140&auth=f21633be1216dcae0dc6fe470233703fdba65404e4ceeff566c5e03b22fef545
-#EXTINF:-1,Sky Sports 3
-http://www.jisu.cf/ds/live.m3u8?id=142&auth=99e8719580391a742e9ebac857eeb89a4c52b74a1df64660398208d0eeda638f
-#EXTINF:-1,Sky Sports 4
-http://www.jisu.cf/ds/live.m3u8?id=282&auth=5047ea443431cb890c503778bbfecc6b85caf8dba5ab847f44ac29798f6fb79d
-#EXTINF:-1,Sky Sports 5
-http://www.jisu.cf/ds/live.m3u8?id=319&auth=0b86a09057b810d5c0e14a4af7a916382bfe35400095647863f4c6e2397ba843
-#EXTINF:-1,Animal Planet
-http://www.jisu.cf/ds/live.m3u8?id=332&auth=8c402ea5ee384bc5194926d9ba24dbb0f7df7d555d753c8a4f0fb7230c3dcef3
-#EXTINF:-1,Cartoon Network
-http://www.jisu.cf/ds/live.m3u8?id=345&auth=0414b6a2914fb36b73c3bdf9fc8fa2651d1f39f8e72fa4875f6fb50cc93277fb
-#EXTINF:-1,Discovery
-http://www.jisu.cf/ds/live.m3u8?id=347&auth=9ecbeef570c1efa132492b2fafe0b8dcbd2b423d89f86c7958f25ed2241588c6
-#EXTINF:-1,Discovery News
-http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/46.m3u8
-#EXTINF:-1,Food Network USA
-http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/53.m3u8
-#EXTINF:-1,Disney 
-http://www.jisu.cf/ds/live.m3u8?id=350&auth=77c54e52e85e6cc52149be06b39b3e5b2789e13396e78a93f1117f96c33b3671
-#EXTINF:-1,History
-http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/174.m3u8
-#EXTINF:-1,History UK
-http://www.jisu.cf/ds/live.m3u8?id=87&auth=eeac80d0b8608ca12797e3e8a7beec2ff1872606639e58f12d1dfcde88db2e94
-#EXTINF:-1,MTV
-http://www.jisu.cf/ds/live.m3u8?id=376&auth=671a7b2b5b77865cecbb3da552adfcfee11ee628364257f4475b5793b09ac134
-#EXTINF:-1,Nat Geo Wild
-http://www.jisu.cf/ds/live.m3u8?id=379&auth=7587b8fb4fc72cdff30e240686b1c0f3aade001176ff7d755f8924ef66765f93
-#EXTINF:-1,Nat Geo
-http://www.jisu.cf/ds/live.m3u8?id=377&auth=7a2537c5029ea85a0b4723d536ff7aa1942624af89792fcd8c52769df054f793
-#EXTINF:-1,Nickelodeon
-http://www.jisu.cf/ds/live.m3u8?id=380&auth=4ed5672f415657c8eb5f51f031228ea68ab0b75b571518a36172356e5bba1c55
-#EXTINF:-1,WWE Network
-http://www.jisu.cf/ds/live.m3u8?id=52&auth=32b72b0d60732703cdcd865d004acb16ff364f19ff4a15fa35a2f721b7ee5076
-#EXTINF:-1,Cartoon Network (zenga)
+#EXTM3U
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="RTP 1" tvg-logo="rtp1.png" group-title="PORTUGAL",[COLOR orange] RTP 1 [/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp1.smil/playlist.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP 1" tvg-logo="rtp1.png" group-title="PORTUGAL",[COLOR orange] RTP 1 [/COLOR][COLOR lawngreen] LOW SD [/COLOR]
+http://88.157.194.246/live/ramdisk/zrtp1/HLS/zrtp1.m3u8 
+
+#EXTINF:-1 tvg-id="RTP 1" tvg-logo="rtp1.png" group-title="PORTUGAL",[COLOR orange] RTP 1 [/COLOR][COLOR lawngreen] LOW SD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/428.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="RTP2" tvg-logo="rtp2.png" group-title="PORTUGAL",[COLOR orange] RTP 2 [/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtp2.smil/playlist.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP2" tvg-logo="rtp2.png" group-title="PORTUGAL",[COLOR orange] RTP 2 [/COLOR][COLOR lawngreen] LOW SD [/COLOR]
+http://88.157.194.246/live/ramdisk/zrtp2/HLS/zrtp2.m3u8
+
+#EXTINF:-1 tvg-id="RTP2" tvg-logo="rtp2.png" group-title="PORTUGAL",[COLOR orange] RTP 2 [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/239.m3u8
+
+#EXTINF:-1 tvg-id="RTP2" tvg-logo="rtp2.png" group-title="PORTUGAL",[COLOR orange] RTP 2 [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/427.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="RTP Informação" tvg-logo="rtp 3.png" group-title="PORTUGAL",[COLOR orange] RTP 3[/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpn.smil/playlist.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP Informação" tvg-logo="rtp 3.png" group-title="PORTUGAL",[COLOR orange] RTP 3[/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net:80/liverepeater/rtpn_5ch64h264.stream/livestream.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP Informação" tvg-logo="rtp 3.png" group-title="PORTUGAL",[COLOR orange] RTP 3 by ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpn.smil/byarno.m3u8
+
+#EXTINF:-1 tvg-id="RTP Informação" tvg-logo="rtp 3.png" group-title="PORTUGAL",[COLOR orange] RTP 3 [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/483.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="SIC" tvg-logo="SIC.png" group-title="PORTUGAL",[COLOR orange] SIC [/COLOR][COLOR blue] SD [/COLOR]
+http://213.13.26.11:1935/live/sic/livestream.m3u8
+ 
+#EXTINF:-1 tvg-id="SIC" tvg-logo="SIC.png" group-title="PORTUGAL",[COLOR orange] SIC By ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://213.13.26.11:1935/live/sic/byarno.m3u8
+ 
+#EXTINF:-1 tvg-id="SIC" tvg-logo="SIC.png" group-title="PORTUGAL",[COLOR orange] SIC [/COLOR][COLOR lawngreen] LOW SD [/COLOR]
+http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8
+
+#EXTINF:-1 tvg-id="SIC" tvg-logo="SIC.png" group-title="PORTUGAL",[COLOR orange] SIC [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/251.m3u8
+
+#EXTINF:-1 tvg-id="SIC" tvg-logo="SIC.png" group-title="PORTUGAL",[COLOR orange] SIC [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/426.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  
+#EXTINF:-1 tvg-id="TVI" tvg-logo="TVI.png" group-title="PORTUGAL",[COLOR orange] TVI [/COLOR][COLOR blue] SD [/COLOR]
+http://video-live.iol.pt:1935/live_tvi/smil:LIVE_TVI/playlist.m3u8
+ 
+#EXTINF:-1 tvg-id="TVI" tvg-logo="TVI.png" group-title="PORTUGAL",[COLOR orange] TVI [/COLOR][COLOR lawngreen] LOW SD [/COLOR]
+http://88.157.194.246/live/ramdisk/ztvi/HLS/ztvi.m3u8
+
+#EXTINF:-1 tvg-id="TVI" tvg-logo="TVI.png" group-title="PORTUGAL",[COLOR orange] TVI [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/213.m3u8
+
+#EXTINF:-1 tvg-id="TVI" tvg-logo="TVI.png" group-title="PORTUGAL",[COLOR orange] TVI [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/417.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="A Quinta" tvg-logo="a quinta.png" group-title="PORTUGAL",[COLOR orange] A QUINTA [/COLOR][COLOR blue] SD [/COLOR][COLOR green][/COLOR]
+rtmp://62.210.88.244:1935/liverepeat?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDE1IDk6MjE6MzAgUE0maGFzaF92YWx1ZT1IcmRTSkpuRVkvUklQZVBiQ3dXdEVnPT0mdmFsaWRtaW51dGVzPTMwMA==/ playpath=TVIReality24 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=TVIReality24&vw=550&vh=430 timeout=15
+
+#EXTINF:-1 tvg-id="A Quinta" tvg-logo="a quinta.png" group-title="PORTUGAL",[COLOR orange] A QUINTA [/COLOR][COLOR blue] SD [/COLOR][COLOR green][/COLOR]
+rtmp://62.210.88.244:1935/liverepeat playpath=TVIReality24 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://direct-stream.biz/embednews.php?c=TVIReality24&vw=550&vh=430 timeout=15
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="SIC Notícias" tvg-logo="sic_noticias.png" group-title="PORTUGAL",[COLOR orange] SIC NOTÍCIAS [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://213.13.26.42/live playpath=sicnoticias swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?live=rtmp%3A%2F%2F%7B%24hostname%7D%2Flive%2Fsicnoticias&file=http%3A%2F%2Frd3.videos.sapo.pt%2Fsyqqba8JjeKyS8WFMA1H%2Fmov%2F24&autoStart=1 live=1
+
+#EXTINF:-1 tvg-id="SIC Notícias" tvg-logo="sic_noticias.png" group-title="PORTUGAL",[COLOR orange] SIC NOTÍCIAS by ARNO[/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://213.13.26.11:1935/live/sicnoticias/byarno.m3u8
+ 
+#EXTINF:-1 tvg-id="SIC Notícias" tvg-logo="sic_noticias.png" group-title="PORTUGAL",[COLOR orange] SIC NOTÍCIAS [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://213.13.26.11:1935/live/sicnoticias/livestream.m3u8
+
+#EXTINF:-1 tvg-id="SIC Notícias" tvg-logo="sic_noticias.png" group-title="PORTUGAL",[COLOR orange] SIC NOTÍCIAS [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/212.m3u8
+
+#EXTINF:-1 tvg-id="SIC Notícias" tvg-logo="sic_noticias.png" group-title="PORTUGAL",[COLOR orange] SIC NOTÍCIAS [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/424.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ #EXTINF:-1 tvg-id="TVI 24" tvg-logo="tvi_24.png" group-title="PORTUGAL",[COLOR orange] TVI 24 [/COLOR][COLOR blue] SD [/COLOR]
+http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TVI 24" tvg-logo="tvi_24.png" group-title="PORTUGAL",[COLOR orange] TVI 24 [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/214.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="+ tvi" group-title="PORTUGAL" tvg-logo="tvi_mais_pt.png",[COLOR orange] + TVI [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/456.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="TVI Ficção" group-title="PORTUGAL" tvg-logo="tvi f.png",[COLOR orange] TVI FICÇÃO [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/16.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="SIC Caras" group-title="PORTUGAL" tvg-logo="Sic Caras.png",[COLOR orange] SIC CARAS [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/14.m3u8
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="SIC Mulher" tvg-logo="sicm-ver3.png" group-title="PORTUGAL",[COLOR orange] SIC MULHER [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/275.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  
+#EXTINF:-1 tvg-id="CMTV" group-title="PORTUGAL" tvg-logo="cmtv.png",[COLOR orange] CMTV [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/436.ts
+
+#EXTINF:-1 tvg-id="CMTV" group-title="PORTUGAL" tvg-logo="cmtv.png",[COLOR orange] CMTV [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/224.m3u8
+
+#EXTINF:-1 tvg-id="CMTV" group-title="PORTUGAL" tvg-logo="cmtv.png",[COLOR orange] CMTV [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/31.m3u8
+#EXTINF:-1 tvg-id="SIC Mulher" tvg-logo="sicm-ver3.png" group-title="PORTUGAL",[COLOR orange] SIC MULHER [/COLOR][COLOR blue] SD [/COLOR][COLOR orange] ARNO [/COLOR]
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="SIC Radical" tvg-logo="sic radical.png" group-title="PORTUGAL",[COLOR orange] SIC RADICAL [COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/9.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  
+#EXTINF:-1 tvg-id="A Bola TV" tvg-logo="a_bola_tv_pt.png" group-title="PORTUGAL",[COLOR orange] A BOLA TV [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/440.ts
+
+#EXTINF:-1 tvg-id="A Bola TV" tvg-logo="a_bola_tv_pt.png" group-title="PORTUGAL",[COLOR orange] A BOLA TV [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/44.m3u8
+
+#EXTINF:-1 tvg-id="A Bola TV" tvg-logo="a_bola_tv_pt.png" group-title="PORTUGAL",[COLOR orange] A BOLA TV [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/253.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Porto Canal" tvg-logo="Porto Canal.png" group-title="PORTUGAL",[COLOR orange] PORTO CANAL [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://62.210.248.96:11000/live/producoesao@gmail.com_port/producoesao@gmail.com_port/2706.ts
+
+#EXTINF:-1 tvg-id="Porto Canal" tvg-logo="Porto Canal.png" group-title="PORTUGAL",[COLOR orange] PORTO CANAL [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/267.m3u8
+
+#EXTINF:-1 tvg-id="Porto Canal" tvg-logo="Porto Canal.png" group-title="PORTUGAL",[COLOR orange] PORTO CANAL [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/438.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Canal Q" tvg-logo="Canal Q.png" group-title="PORTUGAL",[COLOR orange] CANAL Q [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/15.m3u8
+ 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Económico TV HD" tvg-logo="etv_pt.png" group-title="PORTUGAL",[COLOR orange] ECONOMICO TV [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://213.13.26.43/live playpath=etv_direto swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://tvdesporto.com/economicotv.php timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-id="Económico TV HD" tvg-logo="etv_pt.png" group-title="PORTUGAL",[COLOR orange] ECONOMICO TV by ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://213.13.26.41:1935/live/etv_direto/byarno.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="RTP Memória"tvg-logo="rtp memoria.png" group-title="PORTUGAL",[COLOR orange] RTP MEMÓRIA by ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpmem.smil/byarno.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="RTP Açores" tvg-logo="rtp_ac¸ores.png" group-title="PORTUGAL",[COLOR orange] RTP AÇORES by ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpacores.smil/byarno.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP Açores" tvg-logo="rtp_ac¸ores.png" group-title="PORTUGAL",[COLOR orange] RTP AÇORES [/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net:80/liverepeater/rtpacores_5rtpacores.stream/livestream.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="RTP Madeira" tvg-logo="rtp_madeira.png" group-title="PORTUGAL",[COLOR orange] RTP MADEIRA by ARNO[/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpmadeira.smil/byarno.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP Madeira" tvg-logo="rtp_madeira.png" group-title="PORTUGAL",[COLOR orange] RTP MADEIRA [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net:80/liverepeater/rtpmadeira_5ch1016h264H14.stream/livestream.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="RTP África" tvg-logo="rtp africa.png" group-title="PORTUGAL",[COLOR orange] RTP ÁFRICA [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpafrica.smil/byarno.m3u8
+ 
+#EXTINF:-1 tvg-id="RTP África" tvg-logo="rtp africa.png" group-title="PORTUGAL",[COLOR orange] RTP ÁFRICA [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net:80/liverepeater/rtpafrica_5ch27h264.stream/livestream.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="RTP International" tvg-logo="rtp_internacional.png" group-title="PORTUGAL",[COLOR orange] RTP INTERNATIONAL by ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://rtp-pull-live.hls.adaptive.level3.net/liverepeater/smil:rtpi.smil/byarno.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="EuroSport" group-title="PORTUGAL" tvg-logo="Eurosport.png" tvg-name="Eurosport",[COLOR orange] EUROSPORT 1 UK [/COLOR][COLOR blue] SD [/COLOR]
+http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1000.m3u8
+ 
+#EXTINF:-1 tvg-id="EuroSport" group-title="PORTUGAL" tvg-logo="Eurosport.png" tvg-name="Eurosport",[COLOR orange] EUROSPORT 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/221.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="EuroSport 2" group-title="PORTUGAL" tvg-logo="Eurosport 2.png" tvg-name="Eurosport",[COLOR orange] EUROSPORT 2 [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://198.144.153.145:443/flash playpath=21578?MTQ0MjQyMTU2MDtiNGExNzYwNjQyMWJjYWNkM2UyNWU1MmVhYzcwN2E2YQ== swfUrl=http://static3.sawlive.tv/player.swf live=1 conn=S:OK pageUrl=http://www.sawlive.tv/embed/watch/I1NDE2NGU5ZDNiZTYzMmFlYWU3Mjcy/YTQ0NHJmOjNmYzZlNzJkMjU0YzVhNTZmOWFhMDhiNDZkODZkMzM0OmIyZTdkZjEzNW/ARNO timeout=15 conn=S:OK –live
+
+#EXTINF:-1 tvg-id="EuroSport 2" group-title="PORTUGAL" tvg-logo="Eurosport 2.png" tvg-name="Eurosport",[COLOR orange] EUROSPORT 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/131.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Disney Channel" tvg-logo="disney_channel_global.png" group-title="PORTUGAL",[COLOR orange] DISNEY CHANNEL [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/282.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Disney XD" tvg-logo="disney_XD.png" group-title="PORTUGAL",[COLOR orange] DISNEY XD [/COLOR][COLOR lime] HD [/COLOR][COLOR red]OFFLINE[/COLOR]
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="SIC K" tvg-logo="sic kids.png" group-title="PORTUGAL",[COLOR orange] SIC K [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/452.m3u8
+
+#EXTINF:-1 tvg-id="SIC K" tvg-logo="sic kids.png" group-title="PORTUGAL",[COLOR orange] SIC K [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/425.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Panda" group-title="PORTUGAL" tvg-logo="panda.png",[COLOR orange] PANDA [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/225.m3u8
+
+#EXTINF:-1 tvg-id="Panda" group-title="PORTUGAL" tvg-logo="panda.png",[COLOR orange] PANDA [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/438.m3u8
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Biggs" tvg-logo="Biggs.png" group-title="PORTUGAL",[COLOR orange] PANDA BIGGS [/COLOR][COLOR lime] HD [/COLOR][COLOR red]OFFLINE[/COLOR]
+ 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="Disney Junior" tvg-logo="disney jr.png" group-title="PORTUGAL",[COLOR orange] DISNEY JR. [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/218.m3u8
+ 
+#EXTINF:-1 tvg-id="Disney Junior" tvg-logo="disney jr.png" group-title="PORTUGAL",[COLOR orange] DISNEY JR. [/COLOR][COLOR lime] HD [/COLOR]
+http://62.210.248.96:11000/live/producoesao@gmail.com_port/producoesao@gmail.com_port/1646.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="JimJam" tvg-logo="JimJam.png" group-title="PORTUGAL",[COLOR orange] JIMJAM [/COLOR][COLOR lime] HD [/COLOR][COLOR red]OFFLINE[/COLOR]
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Baby TV" tvg-logo="Baby TV.png" group-title="PORTUGAL",[COLOR orange] BABY TV [/COLOR][COLOR blue] SD [/COLOR][COLOR red]OFFLINE[/COLOR]
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-logo="Cartoon Network.png" group-title="PORTUGAL",[COLOR orange] CARTOON NETWORK BRASIL [/COLOR][COLOR blue] SD [/COLOR]
 http://d1hya96e2cm7qi.cloudfront.net/Live/_definst_/sweetbcha1novD28_W_250.sdp/playlist.m3u8
-#EXTINF:-1,VEVO1 HD
-http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/05/prog_index.m3u8
-#EXTINF:-1,VEVO2 HD
-http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/05/prog_index.m3u8
-#EXTINF:-1,VEVO3 HD
-http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/05/prog_index.m3u8
-#EXTINF:-1,Pink Horror
-http://178.253.194.68:1935/liveloworigin/pinkhorror.stream/playlist.m3u8
-#EXTINF:-1,Pink Premium
-http://178.253.194.68:1935/liveloworigin/pinkpremium.stream/playlist.m3u8
-#EXTINF:-1,Pink Comedy
-http://178.253.194.68:1935/liveloworigin/pinkcomedy.stream/playlist.m3u8
-#EXTINF:-1,Pink Pedia
-http://178.253.194.68:1935/liveloworigin/pinkpedia.stream/playlist.m3u8
-#EXTINF:-1,Pink Reality
-http://178.253.194.68:1935/liveloworigin/pinkreality.stream/playlist.m3u8
-#EXTINF:-1,Pink Film
-http://178.253.194.68:1935/liveloworigin/pinkfilm.stream/playlist.m3u8
-#EXTINF:-1,Pink Classic
-http://178.253.194.68:1935/liveloworigin/pinkclassic.stream/playlist.m3u8
-#EXTINF:-1,Pink Kids
-http://178.253.194.68:1935/liveloworigin/pinkkids.stream/playlist.m3u8
-#EXTINF:-1,Pink Movies
-http://178.253.194.68:1935/liveloworigin/pinkmovies.stream/playlist.m3u8
-#EXTINF:-1,Pink Action
-http://178.253.194.68:1935/liveloworigin/pinkaction.stream/playlist.m3u8
-#EXTINF:-1,Pink 2
-http://178.253.194.68:1935/liveloworigin/pink2.stream/playlist.m3u8
-#EXTINF:-1,Pink Family
-http://178.253.194.68:1935/liveloworigin/pinkfamily.stream/playlist.m3u8
-#EXTINF:-1,Pink Music
-http://178.253.194.68:1935/liveloworigin/pinkmusic.stream/playlist.m3u8
-#EXTINF:-1,Pink Music 2
-http://178.253.194.68:1935/liveloworigin/pinkmusic2.stream/playlist.m3u8
-#EXTINF:-1,Big Ten Network
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="TVC 1" tvg-logo="TVC 1.png" group-title="PORTUGAL",[COLOR orange] TV CINE 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/88.m3u8
+
+#EXTINF:-1 tvg-id="TVC 1" tvg-logo="TVC 1.png" group-title="PORTUGAL",[COLOR orange] TV CINE 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/262.m3u8
+
+#EXTINF:-1 tvg-id="TVC 1" tvg-logo="TVC 1.png" group-title="PORTUGAL",[COLOR orange] TV CINE 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/421.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="TVC 2" tvg-logo="TVC 2.png" group-title="PORTUGAL",[COLOR orange] TV CINE 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/263.m3u8
+
+#EXTINF:-1 tvg-id="TVC 2" tvg-logo="TVC 2.png" group-title="PORTUGAL",[COLOR orange] TV CINE 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/263.m3u8
+
+#EXTINF:-1 tvg-id="TVC 2" tvg-logo="TVC 2.png" group-title="PORTUGAL",[COLOR orange] TV CINE 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/420.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="TVC 3" tvg-logo="TVC 3.png" group-title="PORTUGAL",[COLOR orange] TV CINE 3 [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/91.m3u8
+
+#EXTINF:-1 tvg-id="TVC 3" tvg-logo="TVC 3.png" group-title="PORTUGAL",[COLOR orange] TV CINE 3 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/264.m3u8
+
+#EXTINF:-1 tvg-id="TVC 3" tvg-logo="TVC 3.png" group-title="PORTUGAL",[COLOR orange] TV CINE 3 [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/419.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TVC 4" tvg-logo="TVC 4.png" group-title="PORTUGAL",[COLOR orange] TV CINE 4 [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/92.m3u8
+
+#EXTINF:-1 tvg-id="TVC 4" tvg-logo="TVC 4.png" group-title="PORTUGAL",[COLOR orange] TV CINE 4 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/265.m3u8
+
+#EXTINF:-1 tvg-id="TVC 4" tvg-logo="TVC 4.png" group-title="PORTUGAL",[COLOR orange] TV CINE 4 [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/418.ts
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TVSéries" group-title="PORTUGAL" tvg-logo="TVSéries.png",[COLOR orange] TV SÉRIES [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/93.m3u8
+
+#EXTINF:-1 tvg-id="TVSéries" group-title="PORTUGAL" tvg-logo="TVSéries.png",[COLOR orange] TV SÉRIES [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/469.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="CINEMUNDO" tvg-logo="CINEMUNDO.png" group-title="PORTUGAL",[COLOR orange] CINEMUNDO [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/244.m3u8
+
+#EXTINF:-1 tvg-id="CINEMUNDO" tvg-logo="CINEMUNDO.png" group-title="PORTUGAL",[COLOR orange] CINEMUNDO [/COLOR][COLOR lime] HD [/COLOR]
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="AMC" tvg-logo="AMC.png" group-title="PORTUGAL",[COLOR orange] AMC [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://62.210.248.96:11000/live/producoesao@gmail.com_port/producoesao@gmail.com_port/2717.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  
+#EXTINF:-1 tvg-id="Hollywood" group-title="PORTUGAL" tvg-logo="Hollywood.png",[COLOR orange] HOLLYWOOD [/COLOR][COLOR lime] HD [/COLOR]
+http://62.210.248.96:11000/live/producoesao@gmail.com_port/producoesao@gmail.com_port/2715.ts
+
+#EXTINF:-1 tvg-id="Hollywood" group-title="PORTUGAL" tvg-logo="Hollywood.png",[COLOR orange] HOLLYWOOD [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/105.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  
+#EXTINF:-1 tvg-id="FOX Movies" group-title="PORTUGAL" tvg-logo="fox_movies_pt.png",[COLOR orange] FOX MOVIES [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/434.ts
+ 
+#EXTINF:-1 tvg-id="FOX Movies" group-title="PORTUGAL" tvg-logo="fox_movies_pt.png",[COLOR orange] FOX MOVIES [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/101.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  
+#EXTINF:-1 tvg-id="MOV" group-title="PORTUGAL" tvg-logo="mov.png",[COLOR orange] MOV [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/480.m3u8
+
+#EXTINF:-1 tvg-id="MOV" group-title="PORTUGAL" tvg-logo="mov.png",[COLOR orange] MOV [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/482.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+
+#EXTINF:-1 tvg-id="AXN" group-title="PORTUGAL" tvg-logo="axn1.png",[COLOR orange] AXN [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/276.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   
+#EXTINF:-1 tvg-id="AXN Black" tvg-logo="AXN Black.png" group-title="PORTUGAL",[COLOR orange] AXN BLACK [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/465.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+ 
+#EXTINF:-1 tvg-id="AXN White" tvg-logo="AXN White.png" group-title="PORTUGAL",[COLOR orange] AXN WHITE [/COLOR][COLOR blue] SD [/COLOR]
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="SyFy" tvg-logo="syfy pt.png" group-title="PORTUGAL",[COLOR orange] SYFY [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/495.m3u8
+
+#EXTINF:-1 tvg-id="SyFy" tvg-logo="syfy pt.png" group-title="PORTUGAL",[COLOR orange] SYFY [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/423.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   
+#EXTINF:-1 tvg-id="FOX" group-title="PORTUGAL" tvg-logo="fox1.png",[COLOR orange] FOX [/COLOR][COLOR blue] SD [COLOR orange] ARNO [/COLOR]
+
+ 
+#EXTINF:-1 tvg-id="FOX" group-title="PORTUGAL" tvg-logo="fox1.png",[COLOR orange] FOX [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/99.m3u8
+
+#EXTINF:-1 tvg-id="FOX" group-title="PORTUGAL" tvg-logo="fox1.png",[COLOR orange] FOX [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/278.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   
+#EXTINF:-1 tvg-id="FOX Life" group-title="PORTUGAL" tvg-logo="foxlife.png" tvg-name="FOXLife",[COLOR orange] FOX LIFE [/COLOR][COLOR blue] SD [COLOR orange] ARNO [/COLOR]
+
+
+#EXTINF:-1 tvg-id="FOX Life" group-title="PORTUGAL" tvg-logo="foxlife.png" tvg-name="FOXLife",[COLOR orange] FOX LIFE [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/229.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="FOX Crime" tvg-logo="Fox Crime.png" group-title="PORTUGAL",[COLOR orange] FOX CRIME [/COLOR][COLOR blue] SD [/COLOR]
+
+
+#EXTINF:-1 tvg-id="FOX Crime" tvg-logo="Fox Crime.png" group-title="PORTUGAL",[COLOR orange] FOX CRIME [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/100.m3u8
+
+#EXTINF:-1 tvg-id="FOX Crime" tvg-logo="Fox Crime.png" group-title="PORTUGAL",[COLOR orange] FOX CRIME [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/461.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="FX" tvg-logo="FX.png" group-title="PORTUGAL",[COLOR orange] FX [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/104.m3u8
+
+#EXTINF:-1 tvg-id="FX" tvg-logo="FX.png" group-title="PORTUGAL",[COLOR orange] FX [/COLOR][COLOR lime] HD [/COLOR]
+http://62.210.248.96:11000/live/producoesao@gmail.com_port/producoesao@gmail.com_port/2711.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   
+#EXTINF:-1 tvg-id="MTV Portugal" tvg-logo="mtv pt.png" group-title="PORTUGAL",[COLOR orange] MTV PORTUGAL [/COLOR][COLOR blue] SD [/COLOR][COLOR orange] ARNO [/COLOR]
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________   
+#EXTINF:-1 tvg-id="" tvg-logo="mtv pt.png" group-title="PORTUGAL",[COLOR orange] MTV US [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+http://176.9.55.94:1935/edge/43_135_live/chunklist_w1742369379.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="CBS Reality" tvg-logo="CBS Reality.png" group-title="PORTUGAL",[COLOR orange] CBS REALITY [/COLOR][COLOR lime] HD [/COLOR]
+http://37.187.160.187:8000/live/ressler/skype/66.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Fashion TV" tvg-logo="fashion tv hd.jpg" group-title="PORTUGAL",[COLOR orange] FASHION TV [/COLOR][COLOR lime] HD [/COLOR]
+rtmp://95.67.8.43:1935/live/fashionhd
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-logo="discovery pt.png" group-title="PORTUGAL",[COLOR orange] DISCOVERY CHANNEL[/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/100.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Discovery Showcase" tvg-logo="discovery show.png" group-title="PORTUGAL",[COLOR orange] DISCOVERY SHOWCASE[/COLOR][COLOR blue] SD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/115.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="História" group-title="PORTUGAL" tvg-logo="historia.png",[COLOR orange] HISTÓRIA [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/439.ts
+ 
+#EXTINF:-1 tvg-id="História" group-title="PORTUGAL" tvg-logo="historia.png",[COLOR orange] HISTÓRIA [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/146.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Odisseia" group-title="PORTUGAL" tvg-logo="odisseia-ver1.png",[COLOR orange] ODISSEIA [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/147.m3u8
+
+#EXTINF:-1 tvg-id="Odisseia" group-title="PORTUGAL" tvg-logo="odisseia-ver1.png",[COLOR orange] ODISSEIA [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/430.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="National Geographic Channel" tvg-logo="natgeo.png" group-title="PORTUGAL",[COLOR orange] NAT GEO CHANNEL [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/116.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Nat Geo Wild" tvg-logo="Nat Geo Wild.png" group-title="PORTUGAL",[COLOR orange] NAT GEO WILD [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/151.m3u8
+
+#EXTINF:-1 tvg-id="Nat Geo Wild" tvg-logo="Nat Geo Wild.png" group-title="PORTUGAL",[COLOR orange] NAT GEO WILD [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/281.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="24 Kitchen" tvg-logo="24 Kitchen.png" group-title="PORTUGAL",[COLOR orange] 24 KITCHEN [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/95.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="MCM POP" group-title="PORTUGAL" tvg-logo="MCM POP.png",[COLOR orange] MCM POP [/COLOR][COLOR blue] SD [/COLOR]MCM POP
+http://bit.ly/MCMPo
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________  
+#EXTINF:-1 tvg-id="Afro Music" group-title="PORTUGAL" tvg-logo="Afro Music.png",[COLOR orange] AFRO MUSIC [/COLOR][COLOR lime] HD [/COLOR]
+http://bit.ly/AfroMusic
+ 
+#EXTINF:-1 tvg-id="Afro Music" group-title="PORTUGAL" tvg-logo="Afro Music.png",[COLOR orange] AFRO MUSIC [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/135.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Afro Music" group-title="PORTUGAL" tvg-logo="Afro Music.png",[COLOR orange] MUSIC ??? [/COLOR][COLOR blue] SD [/COLOR]
+http://176.9.55.94:1935/edge/43_135_live/Manifest.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Mezzo" tvg-logo="mezzo.png" group-title="PORTUGAL",[COLOR orange] MEZZO TV [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/136.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Motors TV" group-title="PORTUGAL" tvg-logo="motors 1.png",[COLOR orange] MOTORS TV [/COLOR][COLOR lime] HD [/COLOR]
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Caça e Pesca" tvg-logo="Caça e Pesca.png" group-title="PORTUGAL",[COLOR orange] CAÇA E PESCA [/COLOR][COLOR lime] HD [/COLOR]
+http://bit.ly/CaçaPesca
+
+#EXTINF:-1 tvg-id="Caça e Pesca" tvg-logo="Caça e Pesca.png" group-title="PORTUGAL",[COLOR orange] CAÇA E PESCA [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/142.m3u8
+
+#EXTINF:-1 tvg-id="Caça e Pesca" tvg-logo="Caça e Pesca.png" group-title="PORTUGAL",[COLOR orange] CAÇA E PESCA [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/144.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Toros TV" tvg-logo="toros.png" group-title="PORTUGAL",[COLOR orange] TOROS TV [/COLOR][COLOR lime] HD [/COLOR]
+http://bit.ly/Toros_TV
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="PFC" tvg-logo="PFC.png" group-title="PORTUGAL",[COLOR orange] PFC [/COLOR][COLOR blue] SD [/COLOR]
+http://bit.ly/pfcPFCpfc
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TV Record" tvg-logo="TV RECORD.png" group-title="PORTUGAL",[COLOR orange] TV RECORD [/COLOR][COLOR blue] SD [/COLOR]
+http://srv6.zoeweb.tv:1935/z821-live/stream2/chunklist_w1200576333.m3u8
+
+#EXTINF:-1 tvg-id="TV Record" tvg-logo="TV RECORD.png" group-title="PORTUGAL",[COLOR orange] TV RECORD [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/422.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Record TV" tvg-logo="Record.png" group-title="PORTUGAL",[COLOR orange] RECORD TV [/COLOR][COLOR blue] SD [/COLOR]
+http://flash.midiaip.com.br:1935/tvvitoria/Sample1/playlist.m3u8
+ 
+#EXTINF:-1 tvg-id="Record TV" tvg-logo="Record.png" group-title="PORTUGAL",[COLOR orange] RECORD TV [/COLOR][COLOR lime] HD [/COLOR]
+http://bit.ly/recordpt
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="EuroNews" tvg-logo="Euronews.png" group-title="PORTUGAL",[COLOR orange] EURONEWS [/COLOR][COLOR blue] SD [/COLOR]
+http://fr-par-iphone-1.cdn.hexaglobe.net/streaming/euronews_ewns/iphone_pt.m3u8
+ 
+#EXTINF:-1 tvg-id="EuroNews" tvg-logo="Euronews.png" group-title="PORTUGAL",[COLOR orange] EURONEWS [/COLOR][COLOR blue] SD [/COLOR]
+http://fr-par-iphone-1.cdn.hexaglobe.net/streaming/euronews_ewns/ipad_pt.m3u8
+ 
+#EXTINF:-1 tvg-id="EuroNews" tvg-logo="Euronews.png" group-title="PORTUGAL",[COLOR orange] EURONEWS [/COLOR][COLOR blue] SD [/COLOR]
+rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/pt_vidan750_rtp.sdp
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="CNN" tvg-logo="CNN.png" group-title="PORTUGAL",[COLOR orange] CNN [/COLOR][COLOR blue] SD [/COLOR]
+http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_,828,528,264,.m3u8
+
+#EXTINF:-1 tvg-id="CNN" tvg-logo="CNN.png" group-title="PORTUGAL",[COLOR orange] CNN [/COLOR][COLOR blue] SD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/40.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="BBC World News" tvg-logo="BBC Wolrd News.png" group-title="PORTUGAL",[COLOR orange] BBC WORLD NEWS [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/38.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Aljazeera English" tvg-logo="Aljazeera.png" group-title="PORTUGAL",[COLOR orange] ALJAZEERA ENGLISH [/COLOR][COLOR blue] SD [/COLOR]
+http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/appleman.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="France 24 (F)" tvg-logo="France 24.png" group-title="PORTUGAL",[COLOR orange] FRANCE 24 [/COLOR][COLOR blue] SD [/COLOR]
+http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="rTVE 24h" tvg-logo="24h TVe.png" group-title="PORTUGAL",[COLOR orange] rTVE 24h [/COLOR][COLOR blue] SD [/COLOR]
+http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="CNBC" tvg-logo="CNBC.png" group-title="PORTUGAL",[COLOR orange] CNBC [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/39.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="ARTV" tvg-logo="ARTV_Logo.png" group-title="PORTUGAL",[COLOR orange] ARTV [/COLOR][COLOR blue] SD [/COLOR][COLOR red][/COLOR]
+rtsp://www.canal.parlamento.pt/Live
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TPA Internacional" tvg-logo="tpa 1.png" group-title="PORTUGAL",[COLOR orange] TPA INTERNACIONAL [/COLOR][COLOR blue] SD [/COLOR]
+http://myafricanmega3.tulix.tv:1935/map-tpaint/map-tpaint.stream/playlist.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TCV Internacional" tvg-logo="tcv.png" group-title="PORTUGAL",[COLOR orange] TV CABO VERDE [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://213.13.26.12/live playpath=rtc_teste swfUrl=http://js.sapo.pt/Projects/Video/150129_PATCHED_R2/flash/v.ideojs.swf live=1 pageUrl=http://rd.videos.sapo.cv/playhtml?file=http://rd.videos.sapo.cv/o7sf94LpzBDc94GY3N4i/mov/24 timeout=10
+ 
+#EXTINF:-1 tvg-id="TCV Internacional" tvg-logo="tcv.png" group-title="PORTUGAL",[COLOR orange] TV CABO VERDE [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://213.13.26.41/live playpath=rtc_teste swfUrl=http://assets.web.sapo.io/sapovideo/swf/flvplayer-sapo.swf?live=rtmp://{$hostname}/live/rtc_teste&file=http://rd.videos.sapo.cv/o7sf94LpzBDc94GY3N4i/mov/24 pageUrl=http://www.winpt.com/tcv-cabo-verde/ timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-id="TCV Internacional" tvg-logo="tcv.png" group-title="PORTUGAL",[COLOR orange] TV CABO VERDE by ARNO[/COLOR][COLOR blue] SD [/COLOR]
+http://213.13.26.12:1935/live/rtc_teste/byarno.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Autohoje" group-title="PORTUGAL" tvg-logo="autohoje.png",[COLOR orange] AUTOHOJE TV VIDEOS [/COLOR][COLOR blue] SD [/COLOR]
+mms://tv.autohoje.com/mpltv
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="" tvg-logo="globo-v1.png" group-title="PORTUGAL",[COLOR orange] TV GLOBO [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://62.210.83.180:1935/liverepeat?wmsAuthSign=c2VydmVyX3RpbWU9Mi8yNC8yMDE1IDE6MzA6MzYgUE0maGFzaF92YWx1ZT1OdnpSV2.k0bGgvQVErTWJpb0JjLytRPT0mdmFsaWRtaW51dGVzPTMwMA==/ playpath=101010 swfUrl=http://livestreamcast.org/jwplayer/jwplayer.flash.swf live=1 pageUrl=http://livestreamcast.org/embeds/1.php?c=bobonews445a&vw=100%&vh=100% timeout=10
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="globo-v1.png" group-title="PORTUGAL",[COLOR orange] TV GLOBO [/COLOR][COLOR blue] SD [/COLOR]
+http://62.210.83.152:1935/liverepeat/101010/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="globo-v1.png" group-title="PORTUGAL",[COLOR orange] TV GLOBO [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/268.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="canção nova" tvg-logo="Cancao Nova.png",[COLOR orange] CANÇÃO NOVA [/COLOR][COLOR blue] SD [/COLOR]
+http://cnhls-lh.akamaihd.net/i/cnhls_1@147036/master.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TVMana" tvg-logo="tv_mana_1.png" group-title="PORTUGAL",[COLOR orange] TV MANA [/COLOR][COLOR blue] SD [/COLOR]
+http://195.22.19.179:1935/manasat/manasat2/live.m3u8
+ 
+#EXTINF:-1 tvg-id="Rede TV" tvg-logo="Rede TV.png" group-title="PORTUGAL",[COLOR orange] REDE TV [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://evp.mm.uol.com.br/redetv1/_definst_/redetv1
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="TV Ciencia" tvg-logo="tvciencia.jpeg" group-title="PORTUGAL",[COLOR orange] TV CIENCIA [/COLOR][COLOR blue] SD [/COLOR]
+mms://video-wm.tvciencia.pt/video/tvcnews_256.wmv
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+#EXTINF:-1 tvg-id="Zoomoo.br" tvg-logo="Zoomoo.png" group-title="PORTUGAL",[COLOR orange] ZOOMOO [/COLOR][COLOR blue] SD [/COLOR]
+http://wowza1.videos.movile.com:1935/live/infantil_1.smil/livestream.m3u8
+ 
+#EXTINF:-1 tvg-id="Zoomoo.br" tvg-logo="Zoomoo.png" group-title="PORTUGAL",[COLOR orange] ZOOMOO [/COLOR][COLOR blue] SD [/COLOR]
+http://wowza1.videos.movile.com:8080/live/smil:infantil_1.smil/playlist.m3u8?
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="raxatv.es" tvg-logo="RaxaTV.png" group-title="PORTUGAL",[COLOR orange] RAXA TV [/COLOR][COLOR blue] SD [/COLOR]
+http://video7.stream.mx:1935/raxatv/raxatv/chunklist_w884577146.m3u8?
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+#EXTINF:-1 tvg-id="" tvg-logo="Capelinha_de_Fatima_TV_Fatima.png" group-title="PORTUGAL",[COLOR orange] CAPELINHA DE FÁTIMA [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://213.13.26.11/live playpath=santuario.stream swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer.swf?live=rtmp://{$hostname}/live/santuario&file=http://rd3.videos.sapo.pt/nk4p1I65eivPLPe4i1hy/mov/24 live=1 pageUrl=objectEncoding
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="Capelinha_de_Fatima_TV_Fatima.png" group-title="PORTUGAL",[COLOR orange] CAPELINHA DE FÁTIMA [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/141.m3u8
+ 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PORTUGAL",[COLOR orange] VEVO 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/466.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PORTUGAL",[COLOR orange] VEVO 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/467.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PORTUGAL",[COLOR orange] VEVO 3 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/468.m3u8
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="PORTUGAL",[COLOR orange] HD + STREAMING [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/472.m3u8
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ 
+#EXTINF:-1,[COLOR green]» » GRUPO DESPORTO « «[/COLOR]
+http://0.0.0.0:1234
+ 
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://5.153.233.106:443/share/ playpath=live1-rbi6c swfUrl=http://sharecast.to/player/player20.swf live=1 pageUrl=http://sharecast.to/ timeout=15
+ 
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR blue] SD [/COLOR]
+rtmpe://r.livecast.cc/rs/ playpath=live1-rbi6c swfUrl=http://sharecast.to/player/player20.swf live=1 pageUrl=http://sharecast.to/embed.php?ch=live1-rbi6c timeout=15
+
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/1.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/453.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/25.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/20.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 1" tvg-logo="SPORT TV 1.png" group-title="DESPORTO",[COLOR orange] SPORT TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/413.ts
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+ 
+#EXTINF:-1 tvg-id="SPORT.TV 2" tvg-logo="Sport TV 2.png" group-title="DESPORTO",[COLOR orange] SPORT TV 2 [/COLOR][COLOR blue] SD [/COLOR]
+rtmpe://5.153.233.106:443/share/ playpath=live2-bipmr swfUrl=http://sharecast.to/player/player20.swf live=1 timeout=13 pageUrl=http://sharecast.to/
+ 
+#EXTINF:-1 tvg-id="SPORT.TV 2" tvg-logo="Sport TV 2.png" group-title="DESPORTO",[COLOR orange] SPORT TV 2 [/COLOR][COLOR blue] SD [/COLOR]
+rtmpe://r.livecast.cc/rs/ playpath=live2-bipmr swfUrl=http://89123987015532.com/sc/player/player20.swf live=1 pageUrl=http://sharecast.to/embed.php?ch=live2-bipmr timeout=15
+
+#EXTINF:-1 tvg-id="SPORT.TV 2" tvg-logo="Sport TV 2.png" group-title="DESPORTO",[COLOR orange] SPORT TV 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/89.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 2" tvg-logo="Sport TV 2.png" group-title="DESPORTO",[COLOR orange] SPORT TV 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/255.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 2" tvg-logo="Sport TV 2.png" group-title="DESPORTO",[COLOR orange] SPORT TV 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/26.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="SPORT.TV 3" tvg-logo="Sport TV 3.png" group-title="DESPORTO",[COLOR orange] SPORT TV 3 / BENFICA TV 1/2 [/COLOR][COLOR blue] SD [/COLOR]
+rtmpe://5.153.233.106:443/share/ playpath=live3-qszlx swfUrl=http://sharecast.to/player/player20.swf live=1 timeout=15 pageUrl=http://sharecast.to/
+ 
+#EXTINF:-1 tvg-id="SPORT.TV 3" tvg-logo="Sport TV 3.png" group-title="DESPORTO",[COLOR orange] SPORT TV 3 / BENFICA TV 1/2 [/COLOR][COLOR blue] SD [/COLOR]
+rtmpe://r.livecast.cc/rs// playpath=live3-qszlx swfUrl=http://89123987015532.com/sc/player/player20.swf live=1 pageUrl=http://sharecast.to/embed.php?ch=live3-qszlx timeout=15
+
+#EXTINF:-1 tvg-id="SPORT.TV 3" tvg-logo="Sport TV 3.png" group-title="DESPORTO",[COLOR orange] SPORT TV 3 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/256.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 3" tvg-logo="Sport TV 3.png" group-title="DESPORTO",[COLOR orange] SPORT TV 3 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/27.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+ 
+#EXTINF:-1 tvg-id="SPORT.TV 4" tvg-logo="SPORT TV 4 HD.png" group-title="DESPORTO",[COLOR orange] SPORT TV 4 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/257.m3u8
+ 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="SPORT.TV 5" tvg-logo="SPORT TV 5.png" group-title="DESPORTO",[COLOR orange] SPORT TV 5 [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/258.m3u8
+
+#EXTINF:-1 tvg-id="SPORT.TV 5" tvg-logo="SPORT TV 5.png" group-title="DESPORTO",[COLOR orange] SPORT TV 5 [/COLOR][COLOR lime] HD [/COLOR][COLOR red][/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/24.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="SPORT.TV Americas" tvg-logo="SPORT TV AMERICAS.png" group-title="DESPORTO",[COLOR orange] SPORT TV AMÉRICAS [/COLOR][COLOR blue] SD [/COLOR]
+http://sporttvamericas-i.akamaihd.net:80/hls/live/222316/sportTV/master.m3u8
+ 
+#EXTINF:-1 tvg-id="SPORT.TV Americas" tvg-logo="SPORT TV AMERICAS.png" group-title="DESPORTO",[COLOR orange] SPORT TV AMÉRICAS [/COLOR][COLOR blue] SD [/COLOR]
+http://sporttvamericas-i.akamaihd.net/hls/live/222316/sportTV/mastersportTV_1300kbps.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="BTV 1" tvg-logo="Benfica TV 1.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/45.m3u8
+
+#EXTINF:-1 tvg-id="BTV 1" tvg-logo="Benfica TV 1.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://pt-stream.fubotv.com.a.prod.fastly.net/Benfica-TV/ngrp:BenficaHD.stream_all/byarno.m3u8
+
+#EXTINF:-1 tvg-id="BTV 1" tvg-logo="Benfica TV 1.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/463.m3u8
+
+#EXTINF:-1 tvg-id="BTV 1" tvg-logo="Benfica TV 1.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/259.m3u8
+
+#EXTINF:-1 tvg-id="BTV 1" tvg-logo="Benfica TV 1.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/32.m3u8
+
+#EXTINF:-1 tvg-id="BTV 1" tvg-logo="Benfica TV 1.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 1 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/30.m3u8s
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+  
+#EXTINF:-1 tvg-id="BTV 2" tvg-logo="Benfica TV 2.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/47.m3u8
+
+#EXTINF:-1 tvg-id="BTV 2" tvg-logo="Benfica TV 2.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/260.m3u8
+
+#EXTINF:-1 tvg-id="BTV 2" tvg-logo="Benfica TV 2.png" group-title="DESPORTO",[COLOR orange] BENFICA TV 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://clikmega.blogdns.net:9511/live/joserebolinho/quality2000/31.m3u8
+ _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="Sporting TV" tvg-logo="sporting tv.png" group-title="DESPORTO",[COLOR orange] SPORTING TV [/COLOR][COLOR blue] SD [COLOR orange] ARNO [/COLOR]
+
+ 
+#EXTINF:-1 tvg-id="Sporting TV" tvg-logo="sporting tv.png" group-title="DESPORTO",[COLOR orange] SPORTING TV [/COLOR][COLOR lime] HD [/COLOR]
+http://kuku.dyndns.tv:8000/live/fernando/fernando/51.m3u8
+
+#EXTINF:-1 tvg-id="Sporting TV" tvg-logo="sporting tv.png" group-title="DESPORTO",[COLOR orange] SPORTING TV [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/261.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] MARITIMO TV VIDEOS [/COLOR][COLOR blue] SD [/COLOR]
+http://maritimo.youon.tv/files_videos/1454d9aaef954d4194aebf05dd843cbf.mp4
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] ESPN [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/471.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] ESPN 2 [/COLOR][COLOR lime] HD [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/470.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Bein Sports HD
+http://tvdasogra.com:8880/live/rebolinho/jezito/490.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Bein Sports 2 HD
+http://tvdasogra.com:8880/live/rebolinho/jezito/491.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Bein Sports 10 HD
+http://tvdasogra.com:8880/live/rebolinho/jezito/492.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Canal + Sport FR
+rtmp://176.10.250.166:1935/tv/stream3
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Bein Sports 2 FR
+rtmp://176.10.250.166:1935/tv/stream2
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Bein Sports 1 FR
+rtmp://176.10.250.166:1935/tv/stream4
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",Eurosport FR
+rtmp://176.10.250.166:1935/tv/stream1
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",ARENA SPORT
+http://118.97.167.19/jhos/arena//Playlist.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY BUNDESLIGA 1 By ARNO « «[/COLOR]
+http://edge.ultracast.me:1935/live/sky1buINVcp/playlist.m3u8?Token
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY BUNDESLIGA 2 By ARNO « «[/COLOR]
+http://edge.ultracast.me:1935/live/sky2bum09Ng/playlist.m3u8?Token
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY BUNDESLIGA 3 By ARNO « «[/COLOR]
+http://edge.ultracast.me:1935/live/sky3buLeKZE/playlist.m3u8?Token
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY BUNDESLIGA 4 By ARNO « «[/COLOR]
+http://edge.ultracast.me:1935/live/sky4buERtSW/playlist.m3u8?Token
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY BUNDESLIGA 5 By ARNO « «[/COLOR]
+http://edge.ultracast.me:1935/live/sky5buxeFy5/playlist.m3u8?Token
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY SPORT F1« «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/475.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY SPORT HD« «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/480.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SKY SPORT « «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/476.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SK 1 « «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/477.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SK 2 « «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/478.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » SK 3 « «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/479.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » BT SPORT 1 « «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/487.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR grey]» » BT SPORT 2 « «[/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/488.m3u8
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] ENCORE SPORTS [/COLOR][COLOR blue] SD [/COLOR]
+http://xrxs.net/video/live-p12moun-4728.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] BT NET WORK [/COLOR][COLOR blue] SD [/COLOR]
 http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8
-#EXTINF:-1,NFL
-http://nflsvglagame1-i.akamaihd.net/hls/live/223206/NFL_Mobile/2015Mobile_NFLN_5000k.m3u8
-#EXTINF:-1,BeIn 1
-http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/62.m3u8
-#EXTINF:-1,BeIn 2
-http://180.250.29.12/jhos/beib2_2/1443086933/playlist.m3u8
-#EXTINF:-1,BeIn 3
-http://180.250.29.12/jhos/beib3_2/1443086977/playlist.m3u8
-#EXTINF:-1, BeIn Premiere
-http://lihattv.toh.info/jhos/beib3_5/-/playlist.m3u8
-#EXTINF:-1,Bloomberg
-http://tv-tikilive-hls-live.hls.adaptive.level3.net/hls2/79.m3u8
-#EXTINF:0,04-Channel 4
-http://live303.edge.filmon.com/live/2.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,03-ITV
-http://204.107.27.136/live/11.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Film4
-http://live303.edge.filmon.com/live/13.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,01-BBC One
-http://live306.edge.filmon.com/live/14.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Food Network
-http://204.107.27.248/live/20.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,05-Channel 5
-http://live303.edge.filmon.com/live/22.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,02-BBC Two
-http://live306.edge.filmon.com/live/25.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITV3
-http://204.107.27.136/live/26.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,CBBC
-http://live300.edge.filmon.com/live/29.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,E4
-http://live8.gv.edge.filmon.com/live/65.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,06-ITV2
-http://204.107.27.136/live/67.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,4 Music
-http://live308.edge.filmon.com/live/95.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,More 4
-http://live8.gv.edge.filmon.com/live/97.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITV4
-http://204.107.27.136/live/101.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,BBC Four
-http://live306.edge.filmon.com/live/103.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,07-BBC Three
-http://live306.edge.filmon.com/live/113.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Dave
-http://live308.edge.filmon.com/live/370.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,PickTV
-http://live308.edge.filmon.com/live/371.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Really
-http://live308.edge.filmon.com/live/372.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Horror Channel
-http://live308.edge.filmon.com/live/836.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Travel Channel+1
-http://live308.edge.filmon.com/live/842.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,5USA
-http://204.107.27.248/live/845.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,5*
-http://live300.edge.filmon.com/live/851.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,CBS Drama
-http://204.107.27.248/live/1805.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,CBS Reality
-http://204.107.27.248/live/1808.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,CBS Reality+1
-http://204.107.27.248/live/1811.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITV+1
-http://204.107.27.248/live/1817.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITV2+1
-http://204.107.27.248/live/1820.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITV3+1
-http://204.107.27.248/live/1823.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITV4+1
-http://204.107.27.248/live/1826.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,Food Network+1
-http://204.107.27.248/live/1829.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,CBS Action
-http://204.107.27.248/live/1952.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,QUEST
-http://live307.edge.filmon.com/live/2707.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,CBeebies
-http://live306.edge.filmon.com/live/3191.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,ITVBe
-http://live300.edge.filmon.com/live/3211.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
-#EXTINF:0,truTV
-http://204.107.27.248/live/3707.high.stream/playlist.m3u8?id=70e264da705ed9e83865f4fdccf1fa7f0bb96195476a91ab2dac242d5da9e0d3d9efac1a3e9c3dc4fdb4bcac9c7e9f9d681ce32168295b30821d36d292b8388106567f876ed68564e989174d8971e90c526c598c68d017b909eec09d36dcd4fc167d48ea887a4f1d2ef470ba1bdd47b307d3669a7ad9d9f53390151b7e5f932d873bad1d110b14f3e02a0bba01b2d237fe9fa56d5a9d4a30
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] SPORT KLUB 1 [/COLOR]
+http://77.76.140.251/prgr.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] SPORT KLUB 2 [/COLOR]
+http://77.76.140.251/prgs.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] SPORT KLUB 3 [/COLOR]
+http://77.76.140.251/prgt.m3u8
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="BeIN Sports  HD.png" group-title="DESPORTO",[COLOR orange] BEIN SPORTS 1 FR [/COLOR][COLOR blue] SD [/COLOR]
+http://178.33.88.129:888/udp/239.102.0.20:1234
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="BeIN Sports 2 HD.png" group-title="DESPORTO",[COLOR orange] BEIN SPORTS 2 FR [/COLOR][COLOR blue] SD [/COLOR]
+http://178.33.88.129:888/udp/239.102.0.16:1234
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="BeIN Sports 2 HD.png" group-title="DESPORTO",[COLOR orange] BEIN SPORTS 2 FR [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://176.10.250.166:1935/tv/stream2
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="BeIN Sports 3 HD.png" group-title="DESPORTO",[COLOR orange] BEIN SPORTS 3 FR [/COLOR][COLOR blue] SD [/COLOR]
+http://178.33.88.129:888/udp/239.102.0.17:1234
+ 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="DESPORTO",[COLOR orange] SILK SPORT 1 [/COLOR][COLOR blue] SD [/COLOR]
+http://80.77.52.6:3719/udp/226.0.0.7:12345
+ 
+#EXTINF:-1 tvg-logo="BeIN Sports 1 HD.png" group-title="DESPORTO",[COLOR orange] BEIN SPORTS 1 FR [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://176.10.250.166:1935/tv playpath=stream4 swfUrl=http://stream-in.com/player/strobe-1.6-sec.swf pageUrl=http://stream-in.com/player/foot4.php/  timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-id="Real Madrid TV" group-title="DESPORTO" tvg-logo="REALMADRID.png",[COLOR orange] REAL MADRID TV [/COLOR][COLOR lime] HD [/COLOR]
+http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1250_av-b.m3u8?sd=10&rebase=on
+ 
+#EXTINF:-1 tvg-id="Globo Premium" tvg-logo="Globo Premium.png" group-title="DESPORTO",[COLOR orange] GLOBO PREMIUM [/COLOR][COLOR lime] HD [/COLOR]
+http://bit.ly/GloboPT
+
+#EXTINF:-1 tvg-id="" group-title="DESPORTO" tvg-logo="",[COLOR orange] RAI SPORT 1 [/COLOR][COLOR blue] SD [/COLOR]
+mmsh://212.162.68.163:80/raisport+
+ 
+#EXTINF:-1 tvg-id="" group-title="DESPORTO" tvg-logo="",[COLOR orange] SPORT TV BR [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://r.livecast.cc/rl/ playpath=bob05sd swfUrl=http://livecast.cc/live/player.swf live=1 pageUrl=http://livecast.cc/
+ 
+#EXTINF:-1 tvg-id="" group-title="DESPORTO" tvg-logo="",[COLOR orange] SPORT TV BR [/COLOR][COLOR blue] SD [/COLOR]
+rtmp://live-cdn.direct-stream.org:1935/liverepeat playpath=201020 swfUrl=http://www.ppcast.net/embedP/jwplayer/jwplayer.flash.swf pageUrl=http://www.ppcast.net/
+ 
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+#EXTINF:-1,[COLOR green]» » GRUPO PLEXUS E ACESTREAM « «[/COLOR]
+http://0.0.0.0:1234
+ 
+#EXTINF:-1  tvg-id="" group-title="GRUPO PLEXUS SPORT TV'S" tvg-logo="",[COLOR orange] SPORT TV1 [I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://c39db61fd585ebfa446983d0af9d9d637df9678c&mode=1&name=acestream&mode=1&name=SPORT TV1
+#EXTINF:-1,SPORT TV1 opc1 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://ef6c2b73a0436e06478790e7f8f27f173159dd59&mode=1&name=acestream&mode=1&name=SPORT TV1
+#EXTINF:-1,SPORT TV2 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://24660dc5f5a642f7f5df8873ddac481bc4702115&mode=1&name=acestream&mode=1&name=SPORT TV2
+#EXTINF:-1,SPORT TV2 opc1[COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://a3776be8c08f52b3366c83fff09609721e28cd69&mode=1&name=acestream&mode=1&name=SPORT TV2
+#EXTINF:-1,SPORT TV3 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://cf8ff2d9d89f482de9127591c5781216d60368ae&mode=1&name=acestream&mode=1&name=SPORT TV3
+#EXTINF:-1,SPORT TV3 opc1 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://2cd965d9c087d1d6be889d54d689a6a6083a6280&mode=1&name=acestream&mode=1&name=SPORT TV3
+#EXTINF:-1,SPORT TV4 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://4f256982b213a8b3346b01683b82261db8dcd524&mode=1&name=acestream&mode=1&name=SPORT TV4
+#EXTINF:-1,SPORT TV4 opc1 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://d2a63635273232fc7710bb28c8775d18179c4038&mode=1&name=acestream&mode=1&name=SPORT TV4
+#EXTINF:-1,SPORT TV5 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://ddb6a548f40c83790bc700105fcfc5f3762214ad&mode=1&name=acestream&mode=1&name=SPORT TV5
+#EXTINF:-1,SPORT TV5 opc1 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://e4bb9e8c9d080a418047686bd7891f545bc777d4&mode=1&name=acestream&mode=1&name=SPORT TV5
+#EXTINF:-1,BTV 1 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://253369b57f2a45e1489e5bb7eab4daf0a4cde415&mode=1&name=acestream&mode=1&name=BTV 1
+#EXTINF:-1,BTV 2 [COLOR orange][I][B]PLEXUS[/B][/I][/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://c1646f459c86ab24533650333957a57b457d80c1&mode=1&name=acestream&mode=1&name=BTV 2
+#EXTINF:-1,[COLOR green]Sport TV 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10480.acelive&mode=1&name=acestream&mode=1&name=Sport TV 1
+#EXTINF:-1,[COLOR green]Sport TV 2[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10481.acelive&mode=1&name=acestream&mode=1&name=Sport TV 2
+#EXTINF:-1,[COLOR green]Sport TV 3[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10482.acelive&mode=1&name=acestream&mode=1&name=Sport TV 3
+#EXTINF:-1,[COLOR green]Sport TV 4[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10483.acelive&mode=1&name=acestream&mode=1&name=Sport TV 4
+#EXTINF:-1,[COLOR green]Sport TV 5[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10484.acelive&mode=1&name=acestream&mode=1&name=Sport TV
+#EXTINF:-1,[COLOR green]BT Sport 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10634.acelive&mode=1&name=acestream&mode=1&name=BT Sport 1
+#EXTINF:-1,[COLOR green]BT Sport 2[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9220.acelive&mode=1&name=acestream&mode=1&name=BT Sport 2
+#EXTINF:-1,[COLOR green]BT Sport 2 HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13209.acelive&mode=1&name=acestream&mode=1&name=BT Sport 2 HD
+#EXTINF:-1,[COLOR green]BT Sport ESPN[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13090.acelive&mode=1&name=acestream&mode=1&name=BT Sport ESPN
+#EXTINF:-1,[COLOR green]BT Sport Europe[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13103.acelive&mode=1&name=acestream&mode=1&name=BT Sport Europe
+#EXTINF:-1,[COLOR green]Bein Sports 1 HD France[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/aCelive/12121.acelive&mode=1&name=acestream&mode=1&name=Bein Sports 1 HD France
+#EXTINF:-1,[COLOR green]Bein Sports 2 HD France[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/11997.acelive&mode=1&name=acestream&mode=1&name=Bein Sports 2 HD France
+#EXTINF:-1,[COLOR green]C More Sport SE[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13162.acelive&mode=1&name=acestream&mode=1&name=C More Sport SE
+#EXTINF:-1,[COLOR green]Canal+ Sport France[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10923.acelive&mode=1&name=acestream&mode=1&name=Canal+ Sport France
+#EXTINF:-1,[COLOR green]Eurosport[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/5_reg.acelive&mode=1&name=acestream&mode=1&name=Eurosport
+#EXTINF:-1,[COLOR green]Eurosport 2 British[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12748.acelive&mode=1&name=acestream&mode=1&name=Eurosport 2 British
+#EXTINF:-1,[COLOR green]Eurosport British[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12747.acelive&mode=1&name=acestream&mode=1&name=Eurosport British
+#EXTINF:-1,[COLOR green]Eurosport HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/172_reg.acelive&mode=1&name=acestream&mode=1&name=Eurosport HD
+#EXTINF:-1,[COLOR green]Eurosp?rt 2[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/6_reg.acelive&mode=1&name=acestream&mode=1&name=Eurosport 2
+#EXTINF:-1,[COLOR green]Eurosp?rt 2 North-East HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/11160.acelive&mode=1&name=acestream&mode=1&name=Eurosport 2 North-East HD
+#EXTINF:-1,[COLOR green]Extreme Sports[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/8_all.acelive&mode=1&name=acestream&mode=1&name=Extreme Sports
+#EXTINF:-1,[COLOR green]F+ BG[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13151.acelive&mode=1&name=acestream&mode=1&name=F+ BG
+#EXTINF:-1,[COLOR green]Fox Sports 3 Eredivisie[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13176.acelive&mode=1&name=acestream&mode=1&name=Fox Sports 3 Eredivisie
+#EXTINF:-1,[COLOR green]HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/112_reg.acelive&mode=1&name=acestream&mode=1&name=HD
+#EXTINF:-1,[COLOR green]Kazsport[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10354.acelive&mode=1&name=acestream&mode=1&name=Kazsport
+#EXTINF:-1,[COLOR green]M4 Sport HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12989.acelive&mode=1&name=acestream&mode=1&name=M4 Sport HD
+#EXTINF:-1,[COLOR green]Ma Chaine Sport HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13110.acelive&mode=1&name=acestream&mode=1&name=Ma Chaine Sport HD
+#EXTINF:-1,[COLOR green]Motors TV[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/1483.acelive&mode=1&name=acestream&mode=1&name=Motors TV
+#EXTINF:-1,[COLOR green]NBA TV[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9446.acelive&mode=1&name=acestream&mode=1&name=NBA TV
+#EXTINF:-1,[COLOR green]NBC Sports Network HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13141.acelive&mode=1&name=acestream&mode=1&name=NBC Sports Network HD
+#EXTINF:-1,[COLOR green]Nova Sport[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9315.acelive&mode=1&name=acestream&mode=1&name=Nova Sport
+#EXTINF:-1,[COLOR green]Nova Sport BG[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13202.acelive&mode=1&name=acestream&mode=1&name=Nova Sport BG
+#EXTINF:-1,[COLOR green]Polsat Sport HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9685.acelive&mode=1&name=acestream&mode=1&name=Polsat Sport HD
+#EXTINF:-1,[COLOR green]Polsat Sport News[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12817.acelive&mode=1&name=acestream&mode=1&name=Polsat Sport News
+#EXTINF:-1,[COLOR green]Premier Sports[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/6972.acelive&mode=1&name=acestream&mode=1&name=Premier Sports
+#EXTINF:-1,[COLOR green]Setanta Sports + HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12247.acelive&mode=1&name=acestream&mode=1&name=Setanta Sports + HD
+#EXTINF:-1,[COLOR green]Setanta Sports Eurasia HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/8846.acelive&mode=1&name=acestream&mode=1&name=Setanta Sports Eurasia HD
+#EXTINF:-1,[COLOR green]Sky Bundesliga 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13158.acelive&mode=1&name=acestream&mode=1&name=Sky Bundesliga 1
+#EXTINF:-1,[COLOR green]Sky Sport 1 HD Germany[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13156.acelive&mode=1&name=acestream&mode=1&name=Sky Sport 1 HD Germany
+#EXTINF:-1,[COLOR green]Sky Sport 1 HD Italia[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13150.acelive&mode=1&name=acestream&mode=1&name=Sky sport 2 HD Germany
+#EXTINF:-1,[COLOR green]Sky Sport 2 HD Germany[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13146.acelive&mode=1&name=acestream&mode=1&name=Sky Sport 2 HD Germany
+#EXTINF:-1,[COLOR green]Sky Sport 2 HD Germany[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13177.acelive&mode=1&name=acestream&mode=1&name=Sky Sport 2 HD Germany
+#EXTINF:-1,[COLOR green]Sky Sport 2 HD Italia[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13179.acelive&mode=1&name=acestream&mode=1&name=Sky Sport 2 HD Itali
+#EXTINF:-1,[COLOR green]Sky Sport F1 HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13022.acelive&mode=1&name=acestream&mode=1&name=Sky Sport F1 HD
+#EXTINF:-1,[COLOR green]Sky Sports 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10351.acelive&mode=1&name=acestream&mode=1&name=Sky Sports
+#EXTINF:-1,[COLOR green]Sky Sports 2[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12738.acelive&mode=1&name=acestream&mode=1&name=Sky Sports 2
+#EXTINF:-1,[COLOR green]Sky Sports 3[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/6909.acelive&mode=1&name=acestream&mode=1&name=Sky Sports 3
+#EXTINF:-1,[COLOR green]Sky Sports 4[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/12739.acelive&mode=1&name=acestream&mode=1&name=Sky Sports 4
+#EXTINF:-1,[COLOR green]Sky Sports 5[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10285.acelive&mode=1&name=acestream&mode=1&name=Sky Sports 5
+#EXTINF:-1,[COLOR green]Sky Sports F1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9299.acelive&mode=1&name=acestream&mode=1&name=Sky Sports F1
+#EXTINF:-1,[COLOR green]Sport 1 Cz[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10729.acelive&mode=1&name=acestream&mode=1&name=Sport 1 Cz
+#EXTINF:-1,[COLOR green]Sport 1 DE[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10560.acelive&mode=1&name=acestream&mode=1&name=Sport 1 DE
+#EXTINF:-1,[COLOR green]Sport 2 Cz[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10873.acelive&mode=1&name=acestream&mode=1&name=Sport 2 Cz
+#EXTINF:-1,[COLOR green]Sport Klub 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13117.acelive&mode=1&name=acestream&mode=1&name=Sport Klub 1
+#EXTINF:-1,[COLOR green]Sport Klub 2[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13115.acelive&mode=1&name=acestream&mode=1&name=Sport Klub 2
+#EXTINF:-1,[COLOR green]Sport Klub 3[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13111.acelive&mode=1&name=acestream&mode=1&name=Sport Klub 3
+#EXTINF:-1,[COLOR green]Sportsnet[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13094.acelive&mode=1&name=acestream&mode=1&name=Sportsnet
+#EXTINF:-1,[COLOR green]Sportsnet World[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13028.acelive&mode=1&name=acestream&mode=1&name=Sportsnet World
+#EXTINF:-1,[COLOR green]Super Tennis HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9217.acelive&mode=1&name=acestream&mode=1&name=Super Tennis HD
+#EXTINF:-1,[COLOR green]TSN 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13091.acelive&mode=1&name=acestream&mode=1&name=TSN 1
+#EXTINF:-1,[COLOR green]TSN 2[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13092.acelive&mode=1&name=acestream&mode=1&name=TSN 2
+#EXTINF:-1,[COLOR green]TSN 3[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13093.acelive&mode=1&name=acestream&mode=1&name=TSN 3
+#EXTINF:-1,[COLOR green]TSN 4[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13096.acelive&mode=1&name=acestream&mode=1&name=TSN 4
+#EXTINF:-1,[COLOR green]TSN 5[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/13097.acelive&mode=1&name=acestream&mode=1&name=TSN 5
+#EXTINF:-1,[COLOR green]Teledeporte[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/11139.acelive&mode=1&name=acestream&mode=1&name=Teledeporte
+#EXTINF:-1,[COLOR green]Viasat Hockey[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10048.acelive&mode=1&name=acestream&mode=1&name=Viasat Hockey
+#EXTINF:-1,[COLOR green]Viasat Motor[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/8848.acelive&mode=1&name=acestream&mode=1&name=Viasat Motor
+#EXTINF:-1,[COLOR green]Viasat Sport[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/120_reg.acelive&mode=1&name=acestream&mode=1&name=Viasat Sport
+#EXTINF:-1,[COLOR green]Viasat Sport Baltic[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10362.acelive&mode=1&name=acestream&mode=1&name=Viasat Sport Baltic
+#EXTINF:-1,[COLOR green]Viasat Sport HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/778_reg.acelive&mode=1&name=acestream&mode=1&name=Viasat Sport HD
+#EXTINF:-1,[COLOR green]Viasat Sport Sverige[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10564.acelive&mode=1&name=acestream&mode=1&name=Viasat Sport Sverige
+#EXTINF:-1,[COLOR green]Viasat TV3 Sport 1[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10561.acelive&mode=1&name=acestream&mode=1&name=Viasat TV3 Sport
+#EXTINF:-1,[COLOR green]Viasat TV3 Sport 2 DN[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/10327.acelive&mode=1&name=acestream&mode=1&name=Viasat TV3 Sport 2 DN
+#EXTINF:-1,[COLOR green]nSport + HD[/COLOR]
+plugin://program.plexus/?mode=1&url=acestream://http://super-pomoyka.us.to/trash/ttv-list/acelive/9688.acelive&mode=1&name=acestream&mode=1&name=nSport + HD
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+#EXTINF:-1,[COLOR green]» » GRUPO FRANÇA « «[/COLOR]
+http://0.0.0.0:1234
+
+
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",Canal  Cinema HD
+http://skyiptv.ddns.net:8000/live/batman/batman/538.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",Arte
+http://skyiptv.ddns.net:8000/live/batman/batman/539.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR TMC
+http://skyiptv.ddns.net:8000/live/batman/batman/273.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Syfy
+http://skyiptv.ddns.net:8000/live/batman/batman/274.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR NRJ 12
+http://skyiptv.ddns.net:8000/live/batman/batman/275.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR France O
+http://skyiptv.ddns.net:8000/live/batman/batman/276.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR France 2
+http://skyiptv.ddns.net:8000/live/batman/batman/280.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR France 3
+http://skyiptv.ddns.net:8000/live/batman/batman/279.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR France 4
+http://skyiptv.ddns.net:8000/live/batman/batman/278.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR France 5
+http://skyiptv.ddns.net:8000/live/batman/batman/277.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Eurosport 1
+http://skyiptv.ddns.net:8000/live/batman/batman/282.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Eurosport 2
+http://skyiptv.ddns.net:8000/live/batman/batman/281.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Cine Frisson
+http://skyiptv.ddns.net:8000/live/batman/batman/284.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Cine  Premier
+http://skyiptv.ddns.net:8000/live/batman/batman/285.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR CANAL+
+http://skyiptv.ddns.net:8000/live/batman/batman/262.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR CANAL  SPORT+
+http://skyiptv.ddns.net:8000/live/batman/batman/261.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Canal  Cinema
+http://skyiptv.ddns.net:8000/live/batman/batman/287.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR BFMTV
+http://skyiptv.ddns.net:8000/live/batman/batman/288.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Bein Sport 1
+http://skyiptv.ddns.net:8000/live/batman/batman/290.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Bein Sport 2
+http://skyiptv.ddns.net:8000/live/batman/batman/289.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR Arte
+http://skyiptv.ddns.net:8000/live/batman/batman/291.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FR 5 Plus
+http://skyiptv.ddns.net:8000/live/batman/batman/292.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",TF1 HD
+http://skyiptv.ddns.net:8000/live/batman/batman/271.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",M6 HD
+http://skyiptv.ddns.net:8000/live/batman/batman/272.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",CINE CLASSIC
+http://skyiptv.ddns.net:8000/live/batman/batman/263.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",Cartoon Network
+http://skyiptv.ddns.net:8000/live/batman/batman/265.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",Canal 9
+http://skyiptv.ddns.net:8000/live/batman/batman/266.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",C More Live
+http://skyiptv.ddns.net:8000/live/batman/batman/267.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",C more Action
+http://skyiptv.ddns.net:8000/live/batman/batman/268.ts
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",beIN sports FR 2(Francia)
+rtmp://176.10.250.166:1935/tv/stream2
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",beIN sports HD
+rtmp://176.10.250.166:1935/tv/stream3
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",beIN sports 1 HD
+rtmp://176.10.250.166:1935/tv/stream4
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",M6(Francia)
+https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_hls_aes/m6_hls_aes_1256.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",W9(Francia)
+https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/w9_hls_aes/w9_hls_aes_1256.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",CDATA[6ter(Francia)
+https://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/six_ter_hls_aes/six_ter_hls_aes_1256.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FRANCE24(Francia)
+http://f24hls-i.akamaihd.net/hls/live/221192/F24_FR_LO_HLS/master.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",FRANCE24 em inglés
+http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",BFMTV(Francia)
+http://bfmtv-i.akamaihd.net/hls/live/218332/876450610001/bfmtv/index.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",ANIMAUX
+http://87.248.160.8/edge/smil:animaux/playlist.m3u
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",NORMANDE TV(Francia)
+rtmp://live.lachainenormande.fr:80/live/lcn/livestream
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",ENCYCLO(Francia)
+http://87.248.160.8/edge/smil:encyclo/playlist.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="FRANÇA",Canal Savoir en direct(Francia)
+mms://stream2.canal.qc.ca/enOndes_haut_debit
+
+
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+#EXTINF:-1,[COLOR green]» » PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO « «[/COLOR]
+http://0.0.0.0:1234
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Ericeira
+rtmp://213.13.26.12/live playpath=ericeira.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/DTlId9ym9TZc7rOhKECF timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Espinho
+rtmp://213.13.26.42/live playpath=espinho.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/MkomIV8Fr0pEGnMRJCr1 timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Jardim do Mar
+rtmp://213.13.26.13/live playpath=jardim.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/zpUGwd4ZUrfvFIDb0Vco timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Lagide e Baía - Peniche
+rtmp://213.13.26.11/live playpath=peniche.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/gf8BDWe7fWzQO92jHbBk timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Leça da Palmeira
+rtmp://213.13.26.43/live playpath=leca.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/OF4ntVhaeSihG8JIWV8n timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Liga Moche Surf
+rtmp://213.13.26.11/live playpath=surfstream.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/AF98tRzyzpZfvdfvv6rU timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Matosinhos
+rtmp://213.13.26.13/live playpath=matosinhos.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/es8j5Fy9uPz4IHG0jDsb timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Odeceixe
+rtmp://213.13.26.43/live playpath=odeceixe.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/4a5Z6eksoLkviSD5gf5Z timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia Bordeira
+rtmp://213.13.26.13/live playpath=bordeira.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/EffCAdudjYZLSOsqM4zj timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia Costa da Caparica
+rtmp://213.13.26.41/live playpath=costa.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/mQFYGs9wRn2H30nvzQbd timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia da Luz - Algarve
+rtmp://213.13.26.11/live playpath=luz.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/TH7M3zfHJ32rqRpZnV2l timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia de Carcavelos
+rtmp://213.13.26.41/live playpath=carcavelos.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/N1ZOaY48idM6hNTjL7qC timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia do Guincho
+rtmp://213.13.26.42/live playpath=guincho.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/lhla7bAtgyT97RZYZrER timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia do Norte
+rtmp://213.13.26.13/live playpath=norte.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/oCjzVigYoFkJHSjgTbkl timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia Grande
+rtmp://213.13.26.41/live playpath=grande.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/grfBgAQdvMI3zCGZzPrF timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia São Pedro e Bafureira
+rtmp://213.13.26.43/live playpath=saopedro.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/jenFJoJ9B0cZqIEylUvI timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia São Torpes
+rtmp://213.13.26.11/live playpath=saotorpes.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/zzodtq8OUtUfIeLHTjvC timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Praia Super Tubos
+rtmp://213.13.26.12/live playpath=supertubos.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/cj18gCcQce1w7DBykbof timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Ribeira
+rtmp://213.13.26.43/live playpath=ribeira.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/JBVNouMY9PAovZa1dpLU timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO", Portugal: Beachcam - Santa Cruz
+rtmp://213.13.26.43/live playpath=santacruz.stream swfUrl=http://js.sapo.pt/Projects/Video/141016R1/flash/videojs.swf live=1 pageUrl=http://videos.sapo.pt/2qs77WWaNsGO8kC47ArQ timeout=15 conn=S:OK –live
+ 
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Anguilla Cam
+rtmp://video4.earthcam.com:80/fecnetwork/7393.flv playpath=7393.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20150126 live=1 pageUrl=http://www.earthcam.com/world/anguilla/meadsbay/?cam=aletapool
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Belmont Cam
+rtmp://video4.earthcam.com:1935/fecnetwork/5324.flv playpath=5324.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20150126 live=1 pageUrl=http://www.earthcam.com/usa/northcarolina/belmont/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Brooklyn Bridge
+rtmp://video4.earthcam.com:1935/fecnetwork playpath=3983.flv swfUrl=http://www.earthcam.com/swf/images/stream_viewer.swf?anticache=20140212&imageOverlay=&path=rtmp://video4.earthcam.com/fecnetwork/3983.flv&loadingimage=&buffer=2&volume=0 live=1 pageUrl=http://www.earthcam.com/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Budapest Cam
+rtmp://video2.earthcam.com:80/fecnetwork/hotelvictoria2.flv playpath=hotelvictoria2.flv swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20140602 live=1 pageUrl=http://www.earthcam.com/world/hungary/budapest/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Dublin Cam
+rtmp://video4.earthcam.com:1935/fecnetwork/4054.flv playpath=4054.flv swfUrl=http://www.earthcam.com/swf/streaming/stream_viewer_v3.swf?20140918 live=1 pageUrl=http://www.earthcam.com/world/ireland/dublin/?cam=templebar
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Eiffel Tower Cam
+rtmp://video2.earthcam.com/fecnetwork/eiffelcamHD.flv playpath=eiffelcamHD.flv swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20140409 live=1 pageUrl=http://www.earthcam.com/france/paris/?cam=eiffeltower_hd
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Estacao Espacial Internacional
+http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Hawaii Surf Cam
+rtmp://video4.earthcam.com/fecnetwork/5204.flv playpath=5204.flv swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20140710 live=1 pageUrl=http://www.earthcam.com/usa/hawaii/kauai/koloa/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Hollywood Blvd Cam
+rtmp://video4.earthcam.com:80/fecnetwork playpath=lacitytours1.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20150520 live=1 pageUrl=http://www.earthcam.com/usa/california/losangeles/hollywoodblvd/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Jackson Hole Cam
+rtmp://video4.earthcam.com:1935/fecnetwork/6954.flv playpath=6954.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20150126 live=1 pageUrl=http://www.earthcam.com/usa/wyoming/jackson/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Live From Mulberry Street Cam
+rtmp://video4.earthcam.com:80/fecnetwork/5775.flv playpath=5775.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20150126 live=1 pageUrl=http://www.earthcam.com/usa/newyork/littleitaly/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Palm Beach
+rtmp://video4.earthcam.com:1935/fecnetwork playpath=6391.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20141121 live=1 pageUrl=http://www.earthcam.com/usa/florida/manalapan/palmbeach/?cam=manalapan_palmbeach
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Peregrine Falcon Cam
+rtmp://video2.earthcam.com/fecnetwork/370.flv playpath=370.flv swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20140409 live=1 pageUrl=http://www.earthcam.com/usa/illinois/falcon/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Safari Africa
+http://206.190.152.218:1935/rtsp-distribution/mp4:wil-safari-01.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",San Francisco California
+rtmp://video4.earthcam.com:80/fecnetwork playpath=6603.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20141121 live=1 pageUrl=http://www.earthcam.com/usa/california/sanfrancisco/?cam=rowingclub
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Seattle Cam
+rtmp://video2.earthcam.com:80/fecnetwork/5019.flv playpath=5019.flv swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20140602 live=1 pageUrl=http://www.earthcam.com/usa/washington/seattle/?cam=seattleskyline
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Tau 9 Africa
+http://206.190.152.218:1935/rtsp-distribution/mp4:tau-lodge-01.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Wildwoods Cam
+rtmp://video4.earthcam.com/fecnetwork/5732.flv playpath=5732.flv swfUrl=http://www.earthcam.com/swf/cam_player_v2/ecnPlayer.swf?20140710 live=1 pageUrl=http://www.earthcam.com/usa/newjersey/wildwood/
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="PRAIAS DE PORTUGAL E WEBCAMS DO MUNDO",Wrigley Field Cam
+rtmp://video4.earthcam.com:1935/fecnetwork playpath=3186.flv swfUrl=http://static.earthcamcdn.com/swf/streaming/stream_viewer_v3.swf?20150520 live=1 pageUrl=http://www.earthcam.com/usa/illinois/chicago/wrigleyfield/?cam=wrigleyfield_hd  
+ 
+ 
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+ 
+ 
+#EXTINF:-1,[COLOR Pink]» » ERÓTICO « «[/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1 tvg-logo="hot.jpg" group-title="ERÓTICO",[COLOR pink] ??? [/COLOR][COLOR red] 18+ [/COLOR]
+http://skyiptv.ddns.net:8000/live/batman/batman/429.ts
+
+#EXTINF:-1 tvg-logo="hot.jpg" group-title="ERÓTICO",[COLOR pink] HOT [/COLOR][COLOR red] 18+ [/COLOR]
+http://tvdasogra.com:8880/live/rebolinho/jezito/266.m3u8
+ 
+#EXTINF:-1 tvg-logo="playboy.jpg" group-title="ERÓTICO",[COLOR pink] PLAYBOY RED [/COLOR][COLOR red] 18+ [/COLOR]
+http://62.210.82.241:8081/pboytv/pboytv/chunklist_w2025160262.m3u8
+ 
+#EXTINF:-1 tvg-logo="playboy.jpg" group-title="ERÓTICO",[COLOR pink] PLAYBOY [/COLOR][COLOR red] 18+ [/COLOR]
+ http://satznt.mine.nu:7002/playboy
+ 
+#EXTINF:-1 tvg-logo="SEX-TV.jpg" group-title="ERÓTICO",[COLOR pink] SEX [/COLOR][COLOR red] 18+ [/COLOR]
+http://wowza1.videos.movile.com:8080/live/smil:adulto_1.smil/playlist.m3u8
+ 
+#EXTINF:-1 tvg-logo="babes 18+.jpg" group-title="ERÓTICO",[COLOR pink] BABES [/COLOR][COLOR red] 18+ [/COLOR]
+ 
+#EXTINF:-1 tvg-logo="hot shots 18+.jpg" group-title="ERÓTICO",[COLOR pink] HOT SHOTS [/COLOR][COLOR red] 18+ [/COLOR]
+http://46.249.213.93/iPhone/HLS_TS/broadcast/hotshots-tablet.3gp/hotshots-tablet.3gp-mr649k.m3u8
+ 
+#EXTINF:-1 tvg-logo="top premium 18+.png" group-title="ERÓTICO",[COLOR pink] TOP PREMIUM [/COLOR][COLOR red] 18+ [/COLOR]
+http://wowza1.videos.movile.com:8080/live/smil:adultopremium_1.smil/playlist.m3u8
+ 
+#EXTINF:-1 tvg-logo="SEX ZONE HD.png" group-title="ERÓTICO",[COLOR pink] SEX CHINA [/COLOR][COLOR blue] HD [/COLOR][COLOR red] 18+ [/COLOR]
+http://95.211.163.54:1935/tv/3310/playlist.m3u8
+ 
+#EXTINF:-1 tvg-logo="GNT.png" group-title="ERÓTICO",[COLOR pink] SEX GAY [/COLOR][COLOR red] 18+ [/COLOR]
+http://95.211.163.54:1935/tv/3624/playlist.m3u8
+ 
+ 
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+ 
+ 
+ 
+#EXTINF:0,[COLOR mediumslateblue]» » RÁDIOS « «[/COLOR]
+http://0.0.0.0:1234
+ 
+#EXTINF:-1 radio="true"tvg-logo="Radio_Comercial.png" group-title="RADIOS",[COLOR mediumslateblue] COMERCIAL [/COLOR]
+rtmp://195.23.102.206/comerciallc playpath=comerciallc.sdp swfUrl=http://radiocomercial.iol.pt/player/scripts/player.swf pageUrl=http://radiocomercial.iol.pt/player/webcam.asp
+ 
+#EXTINF:-1 radio="true"tvg-logo="m80.png" group-title="RADIOS",[COLOR mediumslateblue] M80 [/COLOR]
+http://7719.live.streamtheworld.com:80/GR80SRFMAAC_SC
+ 
+#EXTINF:-1 radio="true"tvg-logo="94fm.png" group-title="RADIOS",[COLOR mediumslateblue] 94FM [/COLOR] http://195.8.58.150:35022/;stream.nsv
+ 
+#EXTINF:-1 radio="true"tvg-logo="superfm.png" group-title="RADIOS",[COLOR mediumslateblue] SUPER FM [/COLOR]
+http://94.23.76.235:9956/
+ 
+#EXTINF:-1 radio="true"tvg-logo="hiperfm.png" group-title="RADIOS",[COLOR mediumslateblue] HIPER FM [/COLOR]
+http://85.25.73.243:10460/
+ 
+#EXTINF:-1 radio="true"tvg-logo="ANTENA 1.png" group-title="RADIOS",[COLOR mediumslateblue] ANTENA 1 [/COLOR]
+mms://rdp.oninet.pt/antena1
+ 
+#EXTINF:-1 radio="true"tvg-logo="ANTENA 3.png" group-title="RADIOS",[COLOR mediumslateblue] ANTENA 3 [/COLOR]
+mms://rdp.oninet.pt/antena3
+ 
+#EXTINF:-1 radio="true"tvg-logo="OCEANO PACIFICO.png" group-title="RADIOS",[COLOR mediumslateblue] OCEANO PACIFICO [/COLOR]
+http://7719.live.streamtheworld.com:3690/OCEANPACIFIC_SC
+ 
+#EXTINF:-1 radio="true"tvg-logo="MEGA FM.png" group-title="RADIOS",[COLOR mediumslateblue] MEGA FM [/COLOR]
+http://7719.live.streamtheworld.com:3690/MEGA_HITS_SC?.wma
+ 
+#EXTINF:-1 radio="true"tvg-logo="RENASCENÇA.png" group-title="RADIOS",[COLOR mediumslateblue] RENASCENÇA [/COLOR]
+http://7709.live.streamtheworld.com:3690/RADIO_RENASCENCA_SC?.wma
+ 
+#EXTINF:-1 radio="true"tvg-logo="RFM.png" group-title="RADIOS",[COLOR mediumslateblue] RFM [/COLOR]
+http://7719.live.streamtheworld.com/RFM_SC
+ 
+#EXTINF:-1 radio="true"tvg-logo="RFM 80.png" group-title="RADIOS",[COLOR mediumslateblue] RFM 80 [/COLOR]
+http://11073.live.streamtheworld.com/GR80SRFMAAC?
+ 
+#EXTINF:-1 radio="true"tvg-logo="VODAFONE FM.png" group-title="RADIOS",[COLOR mediumslateblue] VODAFONE FM [/COLOR]
+rtmp://195.23.102.206/autometadata5/ playpath=vodafone.sdp swfUrl=http://www.vodafone.fm/flash/soundmanager2_flash9.swf?ts=1425470563156 live=1 pageUrl=http://www.vodafone.fm/
+ 
+#EXTINF:-1 radio="true"tvg-logo="SMOOTH FM.png" group-title="RADIOS",[COLOR mediumslateblue] SMOOTH FM [/COLOR]
+rtmp://195.23.102.206/smoothlc playpath=smoothlc.sdp
+ 
+#EXTINF:-1 radio="true"tvg-logo="CIDADE FM.png" group-title="RADIOS",[COLOR mediumslateblue] CIDADE FM [/COLOR]
+rtmp://195.23.102.208/cidadefmlc/ playpath=cidadefmlc.sdp swfUrl=http://cdn.radiosfm.org/swf/soundmanager2_flash9.swf pageUrl=http://www.radioonline.com.pt/#radio-cidade-fm
+ 
+#EXTINF:-1 radio="true"tvg-logo="RADIO CLUBE LAMEGO.png" group-title="RADIOS",[COLOR mediumslateblue] RADIO CLUBE LAMEGO [/COLOR]
+rtmp://aacplus.stream10.net:1935/sfera playpath=7050 swfUrl=http://www.rclamego.pt/player/aacplayer.swf pageUrl=http://www.rclamego.pt/player/aacplayer.swf
+ 
+#EXTINF:-1 radio="true"tvg-logo="RA.png" group-title="RADIOS",[COLOR mediumslateblue] RADIO ATLANTIDA [/COLOR]
+http://94.23.76.235:9926
+ 
+#EXTINF:-1 radio="true"tvg-logo="topfm.png" group-title="RADIOS",[COLOR mediumslateblue] MYTOPFM SM [/COLOR]
+http://195.8.58.150:35006/
+ 
+#EXTINF:-1 radio="true"tvg-logo="topfm.png" group-title="RADIOS",[COLOR mediumslateblue] MYTOPFM TERCEIRA [/COLOR]
+http://195.8.58.150:35008/
+ 
+#EXTINF:-1 radio="true" tvg-logo="cmfm.png",Canal FM
+http://centova.radio.com.pt:9466/
